@@ -7,7 +7,7 @@ function Score(){
 		textAlign(RIGHT);
 		textFont("Georgia");
 		textSize(30);
-		text("Score: " + this.score, windowWidth - 100, 80);
+		text("Score  " + this.score, windowWidth - 100, 80);
 	}
 
 	this.addscore = function(){

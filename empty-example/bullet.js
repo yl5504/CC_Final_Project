@@ -23,6 +23,7 @@ function Bullet(x,y,v){
 		strokeWeight(4);
 		stroke(255,204,100);
 		fill(255);
+		//bullet will change direction due to mouse
 		var mouse = createVector(mouseX, mouseY)
 		var theta = this.v.heading()
 		push()

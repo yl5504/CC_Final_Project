@@ -73,7 +73,6 @@ function draw() {
 					currentvirusnumber --;
 					score.addscore()
 					healthvalue = healthvalue + 1
-					player.a ++
 				}
 			}
 		}

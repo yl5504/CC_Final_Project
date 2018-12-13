@@ -61,7 +61,7 @@ function Player() {
 	this.shoot = function(){
 		var mouse = createVector(mouseX,mouseY)
 		var dis = p5.Vector.sub(mouse, this.pos)
-		dis.setMag(20)		
+		dis.setMag(20)		//set the bullet's moving speed
 		bullets.push(new Bullet(this.pos.x, this.pos.y, dis));
 	}
 

@@ -13,7 +13,7 @@ function bgpattern(){
 	    //first vertex
 	    curveVertex(x, y);
 
-	    //intermediate vertices
+	    //intermediate vertex
 	    for (var w = 0; w <= width; w += 100) {
 	      x = w;
 	      y = h+waveH * noise(noiseX + w * 0.001, noiseY + h * 0.01, noiseF + f)

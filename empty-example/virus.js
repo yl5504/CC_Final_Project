@@ -25,7 +25,7 @@ function Virus(x, y, diameter, speed, col, jiggle) {
 		push()
 		translate(this.x, this.y)
 		rotate(this.rot)
-		//fluffy
+		//fluffy look
 		noStroke();
 		for(var rad = this.diameter/2; rad >=0; rad-=5){
 			fill(this.col);
